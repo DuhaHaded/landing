@@ -1,4 +1,54 @@
 @import'./base.css';
-p{
-    color: blueviolet;
+
+body{
+    font-family:var(--mainFont);
+    background-color: #eee;
+}
+
+.header{
+    background-color: #fff;
+    padding: 20px 0;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.header .logo img{
+    width: 35px;
+}
+.header .logo a{
+    color: var(--mainColor);
+}
+.nav ul{
+    display: flex;
+    gap: 16px;
+}
+.nav ul li a{
+    color: #101928;
+}
+.auth {
+display: flex;
+gap: 10px;
+align-items: center;
+}
+.active{
+    font-weight: 900;
+}
+.auth a{
+    font-family: var(--subFont);
+    padding: 5.3541765213012695px 20.18113136291504px;
+    border-radius: 4.118597984313965px;
+    border: 2px solid var(--mainColor);
+    font-weight: 700;
+
+
+
+}
+.auth .login{
+    color: var(--mainColor);
+}
+.auth .Register{
+    background-color: var(--mainColor);
+    color: #fff;
 }
